@@ -1,0 +1,10 @@
+feature,importance
+temp_lag1,5.294756
+month_sin,0.13069813
+condition_enc,0.12316344
+hour_sin,0.11670528
+hum_lag1,0.092574224
+city_enc,0.090701856
+region_enc,0.06256917
+month_cos,0.050582748
+hour_cos,0.04267642
