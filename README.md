@@ -112,4 +112,7 @@ See `Methodology_Report.docx` Section 6 for full interpretation of each result, 
 ## Citation
 
 If you use this pipeline or its outputs, please cite the associated manuscript [full citation to be added upon publication].
+HEAD
 Bilqis Alege, et al. “Multi‑Location Temporal Forecasting of Near‑Surface Temperature and Relative Humidity Across Diverse Climatic Regions of India Using a Stacked Ensemble Framework.” (Under review, 2026).
+
+
