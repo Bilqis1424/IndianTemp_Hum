@@ -79,7 +79,7 @@ This is intended to confirm the pipeline runs end-to-end without error before co
 
 ## 📊 Results Summary
 
-Full per-fold, per-city, and per-horizon tables underlying every number below are written as CSV files to `csv files/` by `indianweather files/indian_weather_pipeline_v3_final.py` (walk-forward results, per-city ARIMA order/AIC/accuracy, per-location LOCO results, and multi-step MAE/RMSE/R² by horizon), alongside every figure placed in `visualisations/`.
+Full per-fold, per-city, and per-horizon tables underlying the reported results are included in the repository for reproducibility, including walk-forward results, per-city ARIMA results, per-location LOCO results, and multi-step MAE/RMSE/R² by horizon. These study outputs are organised in `csv files/`, with figures in visualisations/ and saved model artifacts in model_artifacts/. A fresh execution of `indianweather files/indian_weather_pipeline_v3_final.py` generates its outputs in the indianweather files/ directory.
 
 | Model | Temp R² | Temp MAE (°C) | Temp RMSE (°C) | Hum R² | Hum MAE (%) | Hum RMSE (%) |
 | --- | --- | --- | --- | --- | --- | --- |
