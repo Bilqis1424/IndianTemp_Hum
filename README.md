@@ -62,7 +62,8 @@ python "indianweather files/indian_weather_pipeline_v3_final.py"
 
 ```
 
-Runs every stage in sequence (data validation → feature engineering → persistence/ARIMA/LSTM baselines → stacked ensemble → walk-forward validation → full 543-city LOCO → SHAP → residuals → multi-step forecasting → study-city figures) and writes outputs to `csv files/`, `visualisations/`, and `model_artifacts/`.
+Runs every stage in sequence (data validation → feature engineering → persistence/ARIMA/LSTM baselines → stacked ensemble → walk-forward validation → full 543-city LOCO → SHAP → residuals → multi-step forecasting → study-city figures). Generated outputs from a fresh run are written to the indianweather files/ directory. The repository also contains the study outputs organised into `csv files/`, `visualisations/`, and `model_artifacts/` for ease of inspection and reproducibility.
+
 
 ### Quick smoke test
 
