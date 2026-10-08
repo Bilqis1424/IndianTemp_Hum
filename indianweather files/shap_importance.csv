@@ -1,0 +1,16 @@
+feature,importance
+temp_lag1,2.8039904
+temp_lag2,0.6846813
+pressure_mb,0.43949205
+longitude,0.19706649
+hour_sin,0.16067767
+cloud,0.13192713
+latitude,0.12640463
+day_of_year_sin,0.08922085
+day_of_year_cos,0.07991765
+air_quality_PM2.5,0.06108769
+hum_lag2,0.047813747
+month_sin,0.04570588
+condition_enc,0.044750895
+hum_lag1,0.029449522
+visibility_km,0.023251172
