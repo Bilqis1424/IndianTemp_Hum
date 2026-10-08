@@ -1,0 +1,40 @@
+# ============================================================================
+# IndianTemp_Hum — Stacked Ensemble Forecasting for Temperature and Humidity
+# Newer releases. Verify compatibility with pip install in a fresh venv.
+# Python 3.12 recommended.
+# ============================================================================
+
+# --- Core scientific computing ---
+numpy==2.1.3
+pandas==2.2.3
+scipy==1.14.1
+
+# --- Machine learning ---
+scikit-learn==1.5.2
+xgboost==2.1.3
+lightgbm==4.5.0
+catboost==1.2.7
+
+# --- Time series ---
+statsmodels==0.14.4
+
+# --- Deep learning (LSTM baseline) ---
+tensorflow==2.18.0
+
+# --- Interpretability ---
+shap==0.46.0
+
+# --- Model serialisation ---
+joblib==1.4.2
+
+# --- Visualisation ---
+matplotlib==3.9.2
+seaborn==0.13.2
+
+# --- Excel file support ---
+openpyxl==3.1.5
+
+# --- Interactive India map ---
+folium==0.17.1
+geopandas==1.0.1
+shapely==2.0.6
